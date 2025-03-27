@@ -1,6 +1,5 @@
 let inputvalue = document.getElementById("inputField")
 let button = document.getElementById("button")
-
 button.addEventListener("click", function(){
   if (/^[a-zA-Z0-9]+$/.test(inputvalue.value)){ // checks if the input is alphanumeric
     inputvalue.setCustomValidity("Confirmed! Your form has been submitted. Thank you")
